@@ -1,0 +1,94 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.1.66
+3 info using node@v0.8.15
+4 verbose publish [ '.' ]
+5 verbose read json /Users/Matthew/js/searchJS/package.json
+6 verbose cache add [ '.', null ]
+7 silly cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { pathname: '.', path: '.', href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/Matthew/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/var/folders/9r/04vj3c651z35fv7zlnx1tf6r0000gn/T/npm-19534/1367747766303-0.2292417490389198/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /var/folders/9r/04vj3c651z35fv7zlnx1tf6r0000gn/T/npm-19534/1367747766303-0.2292417490389198/tmp.tgz
+14 verbose folder .
+15 info prepublish panther@0.0.0
+16 silly lockFile 897aaf18-66303-0-2292417490389198-tmp-tgz /var/folders/9r/04vj3c651z35fv7zlnx1tf6r0000gn/T/npm-19534/1367747766303-0.2292417490389198/tmp.tgz
+17 verbose lock /var/folders/9r/04vj3c651z35fv7zlnx1tf6r0000gn/T/npm-19534/1367747766303-0.2292417490389198/tmp.tgz /Users/Matthew/.npm/897aaf18-66303-0-2292417490389198-tmp-tgz.lock
+18 silly lockFile 897aaf18-66303-0-2292417490389198-tmp-tgz /var/folders/9r/04vj3c651z35fv7zlnx1tf6r0000gn/T/npm-19534/1367747766303-0.2292417490389198/tmp.tgz
+19 verbose tar unpack /var/folders/9r/04vj3c651z35fv7zlnx1tf6r0000gn/T/npm-19534/1367747766303-0.2292417490389198/tmp.tgz
+20 silly lockFile b3cd9ddd-66303-0-2292417490389198-package /var/folders/9r/04vj3c651z35fv7zlnx1tf6r0000gn/T/npm-19534/1367747766303-0.2292417490389198/package
+21 verbose lock /var/folders/9r/04vj3c651z35fv7zlnx1tf6r0000gn/T/npm-19534/1367747766303-0.2292417490389198/package /Users/Matthew/.npm/b3cd9ddd-66303-0-2292417490389198-package.lock
+22 silly gunzTarPerm modes [ '755', '644' ]
+23 silly gunzTarPerm extractEntry package.json
+24 silly gunzTarPerm extractEntry README.md
+25 verbose read json /var/folders/9r/04vj3c651z35fv7zlnx1tf6r0000gn/T/npm-19534/1367747766303-0.2292417490389198/package/package.json
+26 silly lockFile b3cd9ddd-66303-0-2292417490389198-package /var/folders/9r/04vj3c651z35fv7zlnx1tf6r0000gn/T/npm-19534/1367747766303-0.2292417490389198/package
+27 verbose from cache /var/folders/9r/04vj3c651z35fv7zlnx1tf6r0000gn/T/npm-19534/1367747766303-0.2292417490389198/package/package.json
+28 verbose tar pack [ '/Users/Matthew/.npm/panther/0.0.0/package.tgz',
+28 verbose tar pack   '/var/folders/9r/04vj3c651z35fv7zlnx1tf6r0000gn/T/npm-19534/1367747766303-0.2292417490389198/package' ]
+29 verbose tarball /Users/Matthew/.npm/panther/0.0.0/package.tgz
+30 verbose folder /var/folders/9r/04vj3c651z35fv7zlnx1tf6r0000gn/T/npm-19534/1367747766303-0.2292417490389198/package
+31 silly lockFile f1850495-ew-npm-panther-0-0-0-package-tgz /Users/Matthew/.npm/panther/0.0.0/package.tgz
+32 verbose lock /Users/Matthew/.npm/panther/0.0.0/package.tgz /Users/Matthew/.npm/f1850495-ew-npm-panther-0-0-0-package-tgz.lock
+33 silly lockFile f1850495-ew-npm-panther-0-0-0-package-tgz /Users/Matthew/.npm/panther/0.0.0/package.tgz
+34 silly lockFile fecd4b0f-atthew-npm-panther-0-0-0-package /Users/Matthew/.npm/panther/0.0.0/package
+35 verbose lock /Users/Matthew/.npm/panther/0.0.0/package /Users/Matthew/.npm/fecd4b0f-atthew-npm-panther-0-0-0-package.lock
+36 silly lockFile fecd4b0f-atthew-npm-panther-0-0-0-package /Users/Matthew/.npm/panther/0.0.0/package
+37 verbose tar unpack /Users/Matthew/.npm/panther/0.0.0/package.tgz
+38 silly lockFile fecd4b0f-atthew-npm-panther-0-0-0-package /Users/Matthew/.npm/panther/0.0.0/package
+39 verbose lock /Users/Matthew/.npm/panther/0.0.0/package /Users/Matthew/.npm/fecd4b0f-atthew-npm-panther-0-0-0-package.lock
+40 silly gunzTarPerm modes [ '755', '644' ]
+41 silly gunzTarPerm extractEntry package.json
+42 silly gunzTarPerm extractEntry README.md
+43 verbose read json /Users/Matthew/.npm/panther/0.0.0/package/package.json
+44 silly lockFile fecd4b0f-atthew-npm-panther-0-0-0-package /Users/Matthew/.npm/panther/0.0.0/package
+45 silly shasum updated bytes 438
+46 info shasum 560248eecd3d718fc5721d071a235e33ad02dbdc
+46 info shasum /Users/Matthew/.npm/panther/0.0.0/package.tgz
+47 verbose from cache /Users/Matthew/.npm/panther/0.0.0/package/package.json
+48 verbose chmod /Users/Matthew/.npm/panther/0.0.0/package.tgz 644
+49 verbose chown /Users/Matthew/.npm/panther/0.0.0/package.tgz [ 501, 20 ]
+50 silly lockFile 3a52ce78- .
+51 silly publish { name: 'panther',
+51 silly publish   version: '0.0.0',
+51 silly publish   description: 'Panther is a way to search through JSON objects.',
+51 silly publish   main: 'index.js',
+51 silly publish   scripts: { test: 'mocha test/test.js' },
+51 silly publish   repository:
+51 silly publish    { type: 'git',
+51 silly publish      url: 'https://github.com/matthewpalmer/panther.git' },
+51 silly publish   author: { name: 'Matthew Palmer' },
+51 silly publish   license: 'BSD',
+51 silly publish   devDependencies: { mocha: '*', 'expect.js': '*' },
+51 silly publish   keywords: [ 'search', 'json', 'json search', 'panther' ],
+51 silly publish   directories: { test: 'test' },
+51 silly publish   readme: 'Panther is a way to search through JSON objects.',
+51 silly publish   readmeFilename: 'README.md',
+51 silly publish   _id: 'panther@0.0.0',
+51 silly publish   dist: { shasum: '560248eecd3d718fc5721d071a235e33ad02dbdc' } }
+52 verbose url raw panther
+53 verbose url resolving [ 'https://registry.npmjs.org/', './panther' ]
+54 verbose url resolved https://registry.npmjs.org/panther
+55 info trying registry request attempt 1 at 19:56:06
+56 http PUT https://registry.npmjs.org/panther
+57 http 409 https://registry.npmjs.org/panther
+58 verbose url raw panther
+59 verbose url resolving [ 'https://registry.npmjs.org/', './panther' ]
+60 verbose url resolved https://registry.npmjs.org/panther
+61 info trying registry request attempt 1 at 19:56:08
+62 http GET https://registry.npmjs.org/panther
+63 http 200 https://registry.npmjs.org/panther
+64 error publish fail Cannot publish over existing version.
+64 error publish fail Bump the 'version' field, set the --force flag, or
+64 error publish fail     npm unpublish 'panther@0.0.0'
+64 error publish fail and try again
+65 error System Darwin 12.3.0
+66 error command "node" "/usr/local/bin/npm" "publish"
+67 error cwd /Users/Matthew/js/searchJS
+68 error node -v v0.8.15
+69 error npm -v 1.1.66
+70 error code EPUBLISHCONFLICT
+71 verbose exit [ 1, true ]
