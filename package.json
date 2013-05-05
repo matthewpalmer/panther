@@ -1,0 +1,23 @@
+{
+    "name" : "panther",
+    "version" : "0.0.0",
+    "description" : "Panther is a way to search through JSON objects.",
+    "main":"index.js",
+    "scripts" : {
+        "test" : "mocha test/test.js"
+    },
+    "repository" : "https://github.com/matthewpalmer/panther.git",
+    "author":"Matthew Palmer",
+    "license":"BSD",
+    "devDependencies" : {
+        "mocha" : "*",
+        "expect.js" : "*"
+    },
+    "keywords" : [
+        "search",
+        "json",
+        "json search",
+        "panther"
+
+    ]
+}
