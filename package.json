@@ -1,7 +1,7 @@
 {
   "name": "panther",
   "version": "0.0.0",
-  "description": "Panther is a way to search through JSON objects.",
+  "description": "Search through an array of JSON objects.",
   "main": "index.js",
   "scripts": {
     "test": "mocha test/test.js"
