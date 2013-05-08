@@ -1,6 +1,6 @@
 {
   "name": "panther",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Search through an array of JSON objects.",
   "main": "index.js",
   "scripts": {
