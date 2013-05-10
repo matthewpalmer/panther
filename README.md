@@ -7,7 +7,7 @@ __Example__ (see also: example.js)
 ```javascript
 var panther = require('panther');
 //data is an array of JSON objects
-var data = [{name:'matt', age:'17'}, {name:'oscar':age:'73'}];
+var data = [{name:'matt', age:'17'}, {name:'oscar', age:'73'}];
 var searchTerm = 'matt';
 
 panther.search(function(err, items) {

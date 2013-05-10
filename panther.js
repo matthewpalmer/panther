@@ -1,5 +1,3 @@
-var data = require('./data');
-
 function search(callback, searchTerm, inputArray) {
   var arrayOfMatches = [];
   for (var e in inputArray) {
