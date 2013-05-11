@@ -1,8 +1,8 @@
 {
   "name": "panther",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Search through an array of JSON objects.",
-  "main": "index.js",
+  "main": "panther.js",
   "scripts": {
     "test": "mocha test/test.js"
   },
